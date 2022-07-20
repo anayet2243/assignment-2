@@ -22,6 +22,7 @@ body{
     align-items: center;
     padding: 33px 140px 0px 140px;
     margin-bottom: 130px;
+    overflow: hidden;
    }
    .header-title{
     font-size: 70px;
@@ -65,6 +66,8 @@ body{
      display: flex;
      width: 88%;
      margin-bottom: 130px;
+     overflow: hidden;
+
     }
     .important-link-button{
         display: grid;
@@ -151,6 +154,8 @@ body{
         display: flex;
         align-items: center;
         flex-direction : column;
+        overflow: hidden;
+
 
       }
       .footer-top h1{
