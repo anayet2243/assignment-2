@@ -62,8 +62,8 @@ body{
     border-radius: 5px;
     color: white;
     border: none;
-    font-size: 16xp;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
 
 
    }
@@ -210,6 +210,7 @@ body{
         color: #183153;
       }
 
+
       /* footer end */
 
       /* ------------------
@@ -268,4 +269,15 @@ body{
           }
          
         }
+
+        /* Tab device */
+        @media only screen and (min-width:689px) and (max-width:992px)  {
+          body{
+            background-color: green;
+          }
+          .header-text{
+            color: red;
+          }
+        }
+       
 
