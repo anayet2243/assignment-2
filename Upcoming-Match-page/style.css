@@ -61,7 +61,7 @@ body{
       transfer section
       ------------------------- */
 
-    .transfer-section{
+    .live-match-section{
      display: flex;
      width: 88%;
      margin-bottom: 130px;
@@ -91,27 +91,37 @@ body{
     #bg-red{
         background-color: #DD0000;
     }
-    .transfer-cards{
+    .live-matches{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 24px;
         grid-row-gap: 24px;
     }
-    .transfer-card{
+    .live-match{
         color: #161616;
         border: 1px solid #E8E8E8;
         border-radius: 10px;
+        padding: 0px 30px 0px 30px;
+        height: 210px;
 
     }
-    .transfer-banner img{
-        width: 100%;
+    .vs h3{
+      padding: 40px 20px 0 20px;
     }
+    .match-banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
     .transfer-title h3{
         font-size: 18px;
         font-weight: 600;
         color: #161616;
     }
-    .transfer-title a button{
+    .match-title a button{
         width: 100px;
         height: 32px;
         font-weight: 400;
@@ -119,12 +129,12 @@ body{
         border-radius: 5px;
         border: 1px solid #161616;
     }
-    .transfer-info{
-        padding: 20px;
-        color: #161616;
+    .match-info{
+      padding-left: 30px;
+      color: #161616;
 
     }
-    .transfer-time span{
+    .match-time span{
         margin-right: 30px;
         color: #161616;
         font-weight: 100;

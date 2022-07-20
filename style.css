@@ -212,6 +212,15 @@ body{
 
 
       /* footer end */
+       /* Tab device */
+       @media screen and (min-width:689px) and (max-width:992px)  {
+        body{
+          background-color: green;
+        }
+        .header-text{
+          color: red;
+        }
+      }
 
       /* ------------------
           Responsive mobile
@@ -270,14 +279,6 @@ body{
          
         }
 
-        /* Tab device */
-        @media only screen and (min-width:689px) and (max-width:992px)  {
-          body{
-            background-color: green;
-          }
-          .header-text{
-            color: red;
-          }
-        }
+       
        
 
