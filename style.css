@@ -225,6 +225,23 @@ body{
        /* Tab device */
        @media screen and (min-width:768px) and (max-width:1023px)  {
 
+        .header{
+          justify-content: space-between;
+          padding: 33px 100px 0px 100px;
+        }
+        .header-title{
+          font-size: 50px;
+          font-weight: 700;
+          color: white;
+          line-height: 50px;
+      
+      
+         }
+        .header-banner img{
+          width: 350px;
+          height: 500px;
+
+        }
         .header-text span{
           display: none;
         }
