@@ -280,6 +280,8 @@ body{
         }
         .live-match-section{
           flex-direction: column;
+          margin-top: -90px;
+
         }
         .important-link-button{
           display: flex; 

@@ -247,6 +247,7 @@ body{
         }
         .transfer-section{
           flex-direction: column;
+          margin-top: -90px;
         }
         .important-link-button{
           display: flex; 
@@ -254,6 +255,8 @@ body{
           height: auto;
           width: 645px;
           margin-bottom: 30px;
+          font-size: 16px;
+          font-weight: 700;
         }
         .important-link-button button{
           width: 200px;
@@ -271,6 +274,7 @@ body{
         grid-template-columns: repeat(4, 1fr);
         padding-right: 80px;
       }
+
 
       /* ------------------
           Responsive mobile
