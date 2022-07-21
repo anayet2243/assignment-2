@@ -103,7 +103,7 @@ body{
         height: 282px;
         
     }
-    .important-link-button button{
+    .important-link-button button , .view-all-button button{
         width: 252px;
         height: 64px;
         background-color: white;
@@ -155,6 +155,16 @@ body{
         color: #161616;
         font-weight: 100;
         margin-top: 2px;
+    }
+    #color-red{
+      margin-bottom: 30px;
+      background-color: red;
+      display: none;
+    }
+    .view-all-button{
+      display: flex;
+      justify-content: center;
+
     }
 
     /* -----------------------
@@ -213,20 +223,43 @@ body{
 
       /* footer end */
        /* Tab device */
-       @media screen and (min-width:689px) and (max-width:992px)  {
-        body{
-          background-color: green;
+       @media screen and (min-width:768px) and (max-width:1023px)  {
+
+        .header-text span{
+          display: none;
         }
-        .header-text{
-          color: red;
+        .transfer-section{
+          flex-direction: column;
         }
+        .important-link-button{
+          display: flex; 
+          justify-content: space-between;         
+          height: auto;
+          width: 645px;
+          margin-bottom: 30px;
+        }
+        .important-link-button button{
+          width: 200px;
+        }
+        .transfer-cards{
+          grid-template-columns: repeat(2, 1fr);
+        }
+        #color-red{
+          display: block;
+          margin-top: -70px;
+        }
+      }
+      .footer-bottom ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-right: 80px;
       }
 
       /* ------------------
           Responsive mobile
         ------------------ */
 
-        @media only screen and (max-width:688px) {
+        @media only screen and (max-width:767px) {
           .mobile-netword{
             display: block;
           }
@@ -251,6 +284,7 @@ body{
 
           .transfer-section{
             flex-direction: column;
+            margin-bottom: 0px;
           }
           .transfer-cards{
             grid-template-columns: repeat(1 , 1fr);

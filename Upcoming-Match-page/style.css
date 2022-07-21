@@ -184,11 +184,26 @@ body{
         color: white;
         font-weight: 500;
       }
+      .fa-brands{
+        font-size: 25px;
+        padding: 20px;
+      }
+      .fa-facebook-f{
+        color: #139AF7;
+      }
+      .fa-linkedin{
+        color: #0077B5;
+      }
+      .fa-twitter{
+        color: #183153;
+      }
+
+
       
       /* footer end */
 
       /* mobile device */
-      @media only screen and (max-width:688px) {
+      @media only screen and (max-width:767px) {
         .mobile-netword{
           display: block;
         }
@@ -240,5 +255,6 @@ body{
         }
        
       }
+      /* Tablet device */
       
 
