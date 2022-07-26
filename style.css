@@ -34,11 +34,11 @@ body{
    }
    .header{
     display: flex;
-    width: 70%;
+    width: 80%;
     background: #161616;
     border-radius: 30px;
     align-items: center;
-    padding: 33px 140px 0px 140px;
+    padding: 33px 40px 0px 40px;
     margin-bottom: 130px;
     overflow: hidden;
 
@@ -71,7 +71,7 @@ body{
     padding-bottom: 0px;
    }
    .header-banner img{
-    width: 581px;
+    width: 538px;
     height: 613px;
    }
 
@@ -194,14 +194,16 @@ body{
         width: 90%;
         border: 1px solid #2D2D2D;
       }
+      .footer-bottom{
+        display: flex;
+      }
       .footer-bottom ul{
         display: flex;
+        align-items: center;
       }
       .footer-bottom ul li{
         list-style: none;
-        width: 200px;
-        text-align: center;
-        padding: 50px 0 50px 0;
+        padding: 50px 40px 50px 40px;
 
       }
       .footer-bottom ul li a{
@@ -274,8 +276,8 @@ body{
         }
       }
       .footer-bottom ul{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         padding-right: 80px;
       }
 

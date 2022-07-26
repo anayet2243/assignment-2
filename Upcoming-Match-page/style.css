@@ -306,7 +306,7 @@ body{
         }
       }
       .footer-bottom ul{
-        display: grid;
+        display: ;
         grid-template-columns: repeat(4, 1fr);
         padding-right: 80px;
       }
